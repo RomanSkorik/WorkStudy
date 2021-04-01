@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="comps.js"></script>
 </head>
 
 <body>

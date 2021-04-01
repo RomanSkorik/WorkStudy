@@ -8,23 +8,22 @@ require "db.php"; // подключаем файл для соединения �
 	<div class="row">
 		<div class="col">
 			<center>
-				<h1>Курс по Excel</h1>
-				<h6>Стоимость: 1500 рублей</h6>
+				<h1>Курс по Word</h1>
 			</center>
 		</div>
 	</div>
 	<div class="courceContainer">
 		<div>
-			<p>Урок 1</p>
+			<p class="lessonNumber">Урок 1</p>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/7Qvr1cujdag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 
 		<div>
-			<p>Урок 2</p>
+			<p class="lessonNumber">Урок 2</p>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/7Qvr1cujdag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div>
-			<p>Урок 3</p>
+			<p class="lessonNumber">Урок 3</p>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/7Qvr1cujdag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 	</div>

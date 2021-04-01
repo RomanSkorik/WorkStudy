@@ -16,30 +16,30 @@ require "db.php"; // подключаем файл для соединения �
 
 					<div class="formrec" align="left">
 
-						<div>
-							<input type="checkbox" class="form-check-input" id="competition1" name="Linux">
+						<div class="competitionsCheck">
+							<input type="checkbox" class="form-check-input" name="Linux">
 							<label class="form-check-label" for="Linux">Linux</label>
 						</div>
 
-						<div>
-							<input class="form-check-input" type="checkbox" id="competition2" name="Network">
+						<div class="competitionsCheck">
+							<input class="form-check-input" type="checkbox" name="Network">
 							<label class="form-check-label" for="Network">Сети</label>
 						</div>
 
-						<div>
-							<input class="form-check-input" type="checkbox" id="competition3" name="Excel">
+						<div class="competitionsCheck">
+							<input class="form-check-input" type="checkbox" name="Excel">
 							<label class="form-check-label" for="Excel">Excel</label>
 						</div>
 
-						<div>
-							<input class="form-check-input" type="checkbox" id="competition4" name="Word">
+						<div class="competitionsCheck">
+							<input class="form-check-input" type="checkbox"  name="Word">
 							<label class="form-check-label" for="Word">Word</label>
 						</div>
 
 					</div>
 
 			<br>
-			<center><button type="button" id="sub" class="btn btn-outline-dark">Подтвердить</button></center>
+			<center><button type="button" id="sub" onclick="getCourses()" class="btn btn-outline-dark">Подтвердить</button></center>
 			</div>
 			</center>
 		</div>
@@ -54,9 +54,6 @@ require "db.php"; // подключаем файл для соединения �
 <?php if(isset($_SESSION['logged_user'])) : ?>
 
 	<!-- Пользователю отображается список предприятий -->
-	<div id="competitions">
-
-	</div>
 
 	<!-- Не авторизован -->
 	<?php else : ?>

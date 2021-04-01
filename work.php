@@ -22,7 +22,7 @@ require "db.php"; // подключаем файл для соединения �
 	<div id="companies">
 		<a href="kolmar.php">
 			<div class="card">
-				<img src="/assets/img/img_avatar.png" alt="Avatar" style="width:100%">
+				<img src="/assets/img/kolmar.png" alt="Avatar" style="width:100%">
 				<div class="container">
 					<h4><b>УК Колмар</b></h4> 
 					<p>Системный администратор</p> 
@@ -33,7 +33,7 @@ require "db.php"; // подключаем файл для соединения �
 
 		<a href="#"> <!--href="itl.php"-->
 			<div class="card">
-				<img src="/assets/img/img_avatar.png" alt="Avatar" style="width:100%">
+				<img src="/assets/img/itl.png" alt="Avatar" style="width:100%">
 				<div class="container">
 					<h4><b>ИТЛ 24</b></h4> 
 					<p>Учитель информатики</p> 
@@ -44,7 +44,7 @@ require "db.php"; // подключаем файл для соединения �
 
 		<a href="#"> <!--href="yktygol.php"--> 
 			<div class="card">
-				<img src="/assets/img/img_avatar.png" alt="Avatar" style="width:100%">
+				<img src="/assets/img/mechel.png" alt="Avatar" style="width:100%">
 				<div class="container">
 					<h4><b>Якутуголь</b></h4>
 					<p>Системный администратор</p>
